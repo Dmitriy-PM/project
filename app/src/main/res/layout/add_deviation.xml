@@ -7,35 +7,27 @@
     android:gravity="center">
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="top">
 
         <EditText
-            android:id="@+id/login"
+            android:id="@+id/descLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="12"
-            android:inputType="textPersonName"
-            android:hint="Логин"
-            />
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="12"
-            android:inputType="textPassword"
-            android:hint="Пароль"
+            android:inputType="textMultiLine"
+            android:hint="Описание"
+            android:maxLines="10"
             />
 
         <Button
-            android:id="@+id/logging"
+            android:id="@+id/saveDeviation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Войти"
+            android:text="Сохранить"
             android:layout_marginTop="15dp"
-            android:onClick="login"
+            android:onClick="saveToDB"
             />
     </LinearLayout>
 </LinearLayout>
