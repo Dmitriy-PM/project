@@ -1,4 +1,4 @@
-package com.example.project.ui.dashboard;
+package com.example.project.ui.orders;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
