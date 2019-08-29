@@ -1,4 +1,4 @@
-package com.example.project.ui.orders;
+package com.example.project.ui.dashboard;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,7 +16,7 @@ public class DashboardFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 //        dashboardViewModel = ViewModelProviders.of(this).get(DashboardViewModel.class);
-        View root = inflater.inflate(R.layout.orders, container, false);
+        View root = inflater.inflate(R.layout.activity_orders, container, false);
 
 //        final TextView textView = root.findViewById(R.id.text_dashboard);
 //
@@ -26,6 +26,10 @@ public class DashboardFragment extends Fragment {
 //                textView.setText(s);
 //            }
 //        });
+
+
+
+
         return root;
     }
 }
