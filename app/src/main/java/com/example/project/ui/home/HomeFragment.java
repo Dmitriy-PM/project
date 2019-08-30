@@ -18,7 +18,7 @@ public class HomeFragment extends Fragment {
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.employer_list, container, false);
+        View view = inflater.inflate(R.layout.deviation_list, container, false);
 
         SQLiteDatabase db = new DBSQLiteHelper(inflater.getContext()).getReadableDatabase();
 
